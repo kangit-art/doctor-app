@@ -12,9 +12,8 @@ const Breadcrumb = ({ items }) => {
           return (
             <li
               key={name.title}
-              className={`flex items-center ${
-                isActive ? "text-gray-600" : "text-blue-600"
-              }`}
+              className={`flex items-center ${isActive ? "text-gray-600" : "text-blue-600"
+                }`}
             >
               {isActive ? (
                 <span>{name.title}</span>
